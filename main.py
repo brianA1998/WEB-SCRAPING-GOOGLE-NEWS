@@ -1,3 +1,8 @@
+"""Este modulo permite la extraccion de informacion de google news y las escribe en un archivo de texto, donde se extraen las noticias de ciencia y tecnologia"""
+
+__author__ = "Brian Ezequiel Alaniz"
+__email__ = "brian.alaniz@hotmail.com"
+
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
